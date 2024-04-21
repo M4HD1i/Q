@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Famous Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Famous Quotes</h1>
+        <div id="quote"></div>
+        <button id="getQuote" onclick="fetchQuote()">Get Quote</button>
+        
+        <div class="ftButtons">
+            <button id="copyQuote" onclick="copyQuote()"><img src="src/copy.png"></button>
+        
+            <button id="convertVoice" onclick="convertToVoice()"><img src="src/voice-message.png"></button>
+        
+            <button id="shareWhatsApp" onclick="shareOnWhatsApp()"><img src="src/whatsapp.png"></button>
+       </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
